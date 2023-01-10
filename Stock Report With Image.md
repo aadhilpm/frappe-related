@@ -4,13 +4,21 @@ share: true
 
 ```javascript
 
-var intervalId = window.setInterval(function(){ 
-	populate_images(); }, 1000);
+var intervalId = window.setInterval(function () {
+  populate_images();
+}, 1000);
 
-function populate_images() { 
-// This assumes the images go into the first 
+function populate_images() {
+  // This assumes the images go into the first
 
-column. $('.dt-cell__content--col-1').map(function(i,el) { var content = $(el).html().trim(); if (content.charAt(0)==='/') { $(el).html('<img src="' + content + '">'); } }); }
+  column.$(".dt-cell__content--col-1").map(function (i, el) {
+    var content = $(el).html().trim();
+    if (content.charAt(0) === "/") {
+      $(el).html('<img src="' + content + '">');
+    }
+  });
+}
+
 
 
 ```
