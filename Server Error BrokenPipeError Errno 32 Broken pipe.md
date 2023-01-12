@@ -7,7 +7,7 @@ This is the cache error while clearing session Job.
 ![error](https://user-images.githubusercontent.com/36843795/211985489-4e6f76b1-5ea2-4f28-b97f-198beba71c5a.jpeg)
 
 
-To Manuualy triger:
+To manually trigger:
 
 ```
  bench destroy-all-sessions
