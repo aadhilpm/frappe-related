@@ -4,7 +4,8 @@ share: true
 
 This is the cache error while clearing session Job. 
 
-![[Pasted image 20230112083118.png]]
+![error](https://user-images.githubusercontent.com/36843795/211985489-4e6f76b1-5ea2-4f28-b97f-198beba71c5a.jpeg)
+
 
 To Manuualy triger:
 
