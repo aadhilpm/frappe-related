@@ -1,0 +1,10 @@
+Show only submitted material request for user with Purchase User role on list and report view
+
+
+
+user_roles = frappe.get_doc("User", frappe.session.user).roles
+role_names = [role.role for role in user_roles]
+if "Purchase User" in role_names:
+    conditions = "docstatus = 1"
+else:
+    conditions = ""
