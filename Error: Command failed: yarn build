@@ -1,0 +1,7 @@
+Error: Command failed: yarn build
+raise subprocess.CalledProcessError(return_, command)
+subprocess.CalledProcessError: Command 'yarn run build --run-build-command' returned non-zero exit status 1.
+
+
+sudo npm install -g yarn
+bench update --requirements
